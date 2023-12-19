@@ -1,0 +1,57 @@
+main 
+{
+    width: 73%;
+    margin: auto;
+    background-color: rgb(172, 210, 241);
+    margin-top: 15px;
+    padding: 12px;
+    box-shadow: 8px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: rgb(28, 28, 28);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    position: relative;
+    right: 2px;
+}
+
+
+h4
+{
+    position: absolute;
+    right: 582px;
+    bottom: 590px;
+    font-size: 18px;
+    margin-bottom: -4px;
+}
+
+#intro {
+    position: absolute;
+    left: 600px;
+    top: 270px;
+    font-size: 19px;
+    margin-bottom: 5px;
+    width: 500px;
+}
+
+#productDetailsul {
+    width: 70%;
+}
+
+#productDetails li {
+    line-height: 1.5;
+}
+
+#callToAction {
+    text-transform: capitalize;
+    text-align: center;
+    background-color: grey;
+    font-size: 20px;
+    padding: 5px;
+}

@@ -1,0 +1,47 @@
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+
+#formContainer {
+    width: 65%;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(172, 210, 241);
+    padding: 25px 5px 35px;
+    border-radius: 8px;
+}
+
+form {
+    width: 55%;
+}
+
+fieldset {
+    margin-bottom: 30px;
+}
+
+
+form legend
+{
+    font-size: 30px;
+    margin-bottom: 6px;
+    text-decoration: underline;
+}
+
+
+form label {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+#buttons
+{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}

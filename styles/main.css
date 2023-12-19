@@ -1,0 +1,74 @@
+
+.hero-section
+{
+    background-color: rgb(199, 191, 191);
+    width: 100%;
+    height: 520px;
+}
+.hero-section img {
+    width: 60%;
+    margin-left: 500px;
+    height: 500px;
+}
+
+
+h2 
+{
+    color: rgb(28, 28, 28);
+    display: inline-block;
+    width: 70%;
+    font-size: 55px;
+    position: relative;
+    left: 55px;
+    bottom: 500px;
+    line-height: 1.5;
+}
+
+.hero-section p
+{
+    display: inline-block;
+    font-size: 22px;
+    position: relative;
+    right: 1000px;
+    bottom: 400px;
+}
+section h3 
+{
+    text-decoration: underline;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.bottom 
+{
+    margin-top: -5px;
+    background-color: rgb(200, 218, 231);
+    padding: 20px;
+}
+
+#benefits
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#benefits p
+{
+    font-size: 17px;
+    margin: 10px;
+}
+
+#benefitImages {
+    display: flex;
+    justify-content: space-around;
+}
+
+#benefitImages img{
+    width: 220px;
+    height: 130px;
+}

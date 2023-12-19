@@ -1,0 +1,26 @@
+main 
+{
+    width: 73%;
+    margin: auto;
+    background-color: rgb(172, 210, 241);
+    margin-top: 15px;
+    padding: 12px;
+    box-shadow: 8px;
+    border-radius: 8px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+li {
+    line-height: 1.6;
+}
+
+#overall {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raytheon Corp</title>
+    <link href="../styles/normilize.css" rel="stylesheet">
+    <link href="../styles/shared.css" rel="stylesheet">
+    <link href="../styles/form.css" rel="stylesheet">
+    <script src="../scripting/js/script.js" defer></script>
+</head>
+<body>
+    <!-- Customer feedback form -->
+    <header>
+        <h1>Customer Feedback Form</h1>
+        <!--Global site navigation-->
+        <nav class="headerNavigation">
+            <ul>
+                <li><a href="index.html" title="Go to home page">Home</a></li>
+                <li><a href="details.html" title="Go to product details">Product Details</a></li>
+                <li><a href="about.html" title="Go learn about Raytheon">Learn About Us</a></li>
+                <li><a href="feedback.html" title="Go see our feedback">Feedback</a></li>
+                <li><a href="form.html" title="Go to fill out a customer service form">Customer Service Form</a></li>
+                <li> <a href="support.html" title="Go to our support page">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Radarange Customer Service Form</h2>
+        <div id="formContainer">
+            <form id="customerFeedback" action="../scripting/microwave-process-form.php" method="get">
+                <fieldset id="contactDetails">
+                    <legend>Contact Details</legend>
+                    <label for="firstName">First Name: </label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name" size="25" maxlength="50" required> 
+                    <div id="theLastNameColumn">
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Last Name" size="25" maxlength="50" required>
+                    </div>
+                    <div id="theAddress">
+                        <label for="address1">Address: </label>
+                        <input type="text" name="address1" id="address1" placeholder="Address" size="27" maxlength="100" required>
+                    </div>
+                    <div id="thePhoneNumber">
+                        <label for="phoneNumber">Phone Number: </label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Ex. 613-788-987" size="12" maxlength="12">
+                    </div>
+                </fieldset>
+                <fieldset id="productInformation">
+                    <legend>Product Information</legend>
+                    <div id="theModelNumber">
+                        <label for="modelNumber">Model Number: </label>
+                        <input type="number" name="modelNumber" id="modelNumber" placeholder="Ex. 1235643">
+                    </div>
+                    <div id="theSerialNumber">
+                        <label for="serialNumber">Serial Number: </label>
+                        <input type="number" name="serialNumber" id="serialNumber" placeholder="Ex. 3423454242">
+                    </div>
+                    <div id="theDateOfPurchase">
+                        <label for="dateOfPurchase">Date of Purchase: </label>
+                        <input type="date" name="dateOfPurchase" id="dateOfPurchase">
+                    </div>
+                </fieldset>
+                <fieldset id="natureOfConcern">
+                    <legend>Nature of Concern</legend>
+                
+                    <div id="info">
+                        <input type="checkbox" name="concerns[]" id="productInfo" value="Product Information">
+                        <label for="productInfo">Product Information</label>
+                    </div>
+                
+                    <div id="support">
+                        <input type="checkbox" name="concerns[]" id="technicalSupport" value="Technical Support">
+                        <label for="technicalSupport">Technical Support</label>
+                    </div>
+                
+                    <div id="service">
+                        <input type="checkbox" name="concerns[]" id="warrantyService" value="Warranty Service">
+                        <label for="warrantyService">Warranty Service</label>
+                    </div>
+                
+                    <div id="accessories">
+                        <input type="checkbox" name="concerns[]" id="partsAccessories" value="Parts and Accessories">
+                        <label for="partsAccessories">Parts and Accessories</label>
+                    </div>
+                
+                    <div id="report">
+                        <input type="checkbox" name="concerns[]" id="injuryReport" value="Injury Report">
+                        <label for="injuryReport">Injury Report</label>
+                    </div>
+                
+                    <div id="otherConcerns">
+                        <input type="checkbox" name="concerns[]" id="other" value="Other">
+                        <label for="other">Other</label>
+                        <input type="text" name="otherDescription" id="otherDescription" placeholder="Please describe">
+                    </div>
+                </fieldset>                
+                <div id="theComments">
+                    <label for="comment">Comment:</label>
+                    <input type="text" name="comment" id="comment" size="60" maxlength="500">
+                </div>
+                <!-- Container for form submission and reset buttons -->
+                <div id="buttons">
+                    <button type="reset">Clear Form</button>
+                    <button type="submit">Submit Form</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <address><p>Store location: Main Street, Spencer, MA 01562, USA</p></address>
+        <p>Come visit us today!</p>
+    </footer>
+</body>
+</html>
